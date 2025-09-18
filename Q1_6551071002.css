@@ -1,0 +1,41 @@
+table{
+    border-collapse: collapse;
+}
+
+.bd-style{
+    border-style:hidden;
+    width:100%;
+}
+a:link{ 
+    color: blue;
+}
+
+.sidebar{
+    flex:0 0 10%;
+    border-right: 0.5mm solid green;
+}
+.sidebar a{
+    display: block;
+    color: blue;
+}
+.content{
+    flex: 0 0 90%;
+    display: block;
+    text-indent:1mm;
+}
+.main{
+    display: flex;
+}
+.box{
+    position: absolute;
+    top:20mm;
+    right:20mm;
+    border-style: dashed;
+    border-color: greenyellow;
+    display: block;
+    text-align: right;
+    width:6cm;
+}
+#space{
+    text-indent:32%;
+}

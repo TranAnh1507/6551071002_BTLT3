@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+
+.main-table {
+    width: 80%;
+    border: 2px solid #000;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.nav {
+    text-align: center;
+    background: #eee;
+    padding: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    margin: 0 15px;
+}
+
+.nav a:hover {
+    color: blue;
+}
+
+.content {
+    width: 50%;
+    vertical-align: top;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+}
+
+.content h2 {
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+    background: #f9f9f9;
+}

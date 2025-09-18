@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>User Information Form</title>
+  <link rel="stylesheet" href="Q4_6551071002.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>User Information Form</h2>
+
+    <!-- Form (chỉ 1 nút submit) -->
+    <form action="" method="get">
+      <!-- Name -->
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <!-- Age -->
+      <div class="form-group">
+        <label>Age:</label>
+        <div class="inline-options">
+          <label><input type="radio" name="age" value="<18" required> &lt;18</label>
+          <label><input type="radio" name="age" value="19-35"> 19-35</label>
+          <label><input type="radio" name="age" value="36-48"> 36-48</label>
+          <label><input type="radio" name="age" value=">49"> &gt;49</label>
+        </div>
+      </div>
+
+      <!-- Profession -->
+      <div class="form-group">
+        <label for="profession">Profession:</label>
+        <input type="text" id="profession" name="profession" required>
+      </div>
+
+      <!-- Country -->
+      <div class="form-group">
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+          <option value="">-- Select your country --</option>
+          <option value="vn">Vietnam</option>
+          <option value="us">United States</option>
+          <option value="uk">United Kingdom</option>
+          <option value="jp">Japan</option>
+        </select>
+      </div>
+
+      <!-- Interests -->
+      <div class="form-group">
+        <label>Interests:</label>
+        <div class="inline-options">
+          <label><input type="checkbox" name="interests" value="sports"> Sports</label>
+          <label><input type="checkbox" name="interests" value="music"> Music</label>
+          <label><input type="checkbox" name="interests" value="travel"> Travel</label>
+          <label><input type="checkbox" name="interests" value="reading"> Reading</label>
+        </div>
+      </div>
+
+      <!-- How did you find out -->
+      <div class="form-group">
+        <label for="source">How did you find out about the site?</label>
+        <textarea id="source" name="source" rows="4" required></textarea>
+      </div>
+
+      <!-- Submit -->
+      <div class="form-group">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
